@@ -21,12 +21,11 @@ AI agent skills, one repo per skill, plus one repo of bundled skills. Each insta
 | Bundle | Absorbs | Covers |
 |---|---|---|
 | growth-playbook | 19 marketing skills | Ads, SEO and AI-search, ASO, copywriting, pricing, launch, content, research, community, referrals, PR, free tools, onboarding, planning |
-| firebase-stack | 10 Firebase skills | CLI, Auth, Firestore, Hosting, App Hosting, Data Connect, Crashlytics, Remote Config, AI Logic, rules audits |
-| web-recon | 10 browser and research skills | Local browsers, Browser Use Cloud, the browser-use SDK, OpenCLI adapters, social research, 30-day opinions, cited research |
-| build-pipeline | 10 developer workflow skills | TDD, subagent execution, diagnosis, code review, design, domain modeling, git safety, pre-commit |
-| frontend-craft | 6 frontend skills | Visual design, UI polish, motion, view transitions, shadcn/ui, prototyping |
-| email-stack | 3 email skills | Resend API, Resend CLI, agent inboxes |
-| spec-workshop | 18 planning and writing skills | Grilling, handoff, specs, tickets, triage, wayfinder, writing pipeline, setup |
+| growth-playbook | 19 marketing skills | Ads, SEO and AI-search, ASO, copywriting, pricing, launch, content, research, community, referrals, PR, free tools, onboarding, planning |
+| build-pipeline | 8 developer workflow skills | Diagnosis, code review, design, domain modeling, git safety, pre-commit |
+| frontend-craft | 5 frontend skills | Visual design, UI polish, motion, view transitions, prototyping |
+| email-stack | 2 email skills | Resend API, Resend CLI |
+| spec-workshop | teaching and re-pitch flows | Multi-session teaching workspace, re-pitching a message that did not land |
 
 Install every bundle:
 ```bash

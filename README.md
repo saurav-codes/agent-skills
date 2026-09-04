@@ -11,6 +11,7 @@ AI agent skills, one repo per skill. Each installs with one command.
 | [htmx-expert](https://github.com/saurav-codes/htmx-expert) | Enforces production-grade htmx patterns and the htmx web security golden rules | `npx skills add saurav-codes/htmx-expert -g` |
 | [hindsight-memory](https://github.com/saurav-codes/hindsight-memory) | Routes memory requests to a self-hosted Hindsight MCP bank: retain, recall, reflect, invalidate | `npx skills add saurav-codes/hindsight-memory -g` |
 | [avoid-ai-writing](https://github.com/saurav-codes/avoid-ai-writing) | Audits and rewrites text to remove AI writing patterns, with detect, rewrite, and edit modes | `npx skills add saurav-codes/avoid-ai-writing -g` |
+| [frontend-design](https://github.com/saurav-codes/frontend-design) | Enforces minimalist design taste for frontend UI and bans AI-slop patterns across color, typography, layout, motion, copy, and accessibility | `npx skills add saurav-codes/frontend-design -g` |
 | [use-modern-go](https://github.com/JetBrains/go-modern-guidelines) | Applies the Modern Go Guidelines version-specific guidance when writing, modifying, fixing, or refactoring Go code | `npx skills add JetBrains/go-modern-guidelines -g` |
 
 ## Adding a skill

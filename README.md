@@ -14,6 +14,7 @@ AI agent skills, one repo per skill. Each installs with one command.
 | [frontend-design](https://github.com/saurav-codes/frontend-design) | Enforces minimalist design taste for frontend UI and bans AI-slop patterns across color, typography, layout, motion, copy, and accessibility | `npx skills add saurav-codes/frontend-design -g` |
 | [use-modern-go](https://github.com/JetBrains/go-modern-guidelines) | Applies the Modern Go Guidelines version-specific guidance when writing, modifying, fixing, or refactoring Go code | `npx skills add JetBrains/go-modern-guidelines -g` |
 | [gstack-review](https://github.com/saurav-codes/gstack-review) | Infrastructure-first security audit: secrets archaeology, supply chain, CI/CD, LLM security, OWASP, STRIDE, with false-positive filtering | `npx skills add saurav-codes/gstack-review -g` |
+| [ai-company-with-herdr](https://github.com/saurav-codes/ai-company-with-herdr) | Runs a hierarchical AI agent company over Herdr panes: a tech lead hands off to a senior engineer that executes with workers and a strongest-model reviewer, communicating via handoff and inbox files | `npx skills add saurav-codes/ai-company-with-herdr -g` |
 
 ## Adding a skill
 

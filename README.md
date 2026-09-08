@@ -16,6 +16,14 @@ AI agent skills, one repo per skill. Each installs with one command.
 | [gstack-review](https://github.com/saurav-codes/gstack-review) | Infrastructure-first security audit: secrets archaeology, supply chain, CI/CD, LLM security, OWASP, STRIDE, with false-positive filtering | `npx skills add saurav-codes/gstack-review -g` |
 | [ai-company-with-herdr](https://github.com/saurav-codes/ai-company-with-herdr) | Runs a hierarchical AI agent company over Herdr panes: a tech lead hands off to a senior engineer that executes with workers and a strongest-model reviewer, communicating via handoff and inbox files | `npx skills add saurav-codes/ai-company-with-herdr -g` |
 
+## Install all
+
+Installs every skill in the table above, globally (parses the table, so new rows are picked up automatically):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/saurav-codes/agent-skills/main/README.md | grep '^|' | grep -oE 'npx skills add [^`|]+' | sed -e 's/^npx /npx -y /' -e 's|$| --agent "*" -y </dev/null|' | sh
+```
+
 ## Adding a skill
 
 One repo per skill, named after the skill. The repo root holds `SKILL.md` plus a `reference/` folder for disclosed docs. Add the new repo as a row in the table above.

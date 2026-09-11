@@ -16,6 +16,9 @@ AI agent skills, one repo per skill. Each installs with one command.
 | [gstack-review](https://github.com/saurav-codes/gstack-review) | Infrastructure-first security audit: secrets archaeology, supply chain, CI/CD, LLM security, OWASP, STRIDE, with false-positive filtering | `npx skills add saurav-codes/gstack-review -g` |
 | [ai-company-with-herdr](https://github.com/saurav-codes/ai-company-with-herdr) | Runs a hierarchical AI agent company over Herdr panes: a tech lead hands off to a senior engineer that executes with workers and a strongest-model reviewer, communicating via handoff and inbox files | `npx skills add saurav-codes/ai-company-with-herdr -g` |
 | [hacker-audit](https://github.com/saurav-codes/hacker-audit) | Black-box security audit of a web app the owner verifies: recon, JS bundle extraction, scanners, manual business-logic attacks, PoC-backed findings | `npx skills add saurav-codes/hacker-audit -g` |
+| [archify](https://github.com/tt-a1i/archify) | Creates polished, validated architecture, workflow, sequence, data-flow, and lifecycle diagrams as standalone HTML with inline SVG and export | `npx skills add tt-a1i/archify -g` |
+| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | Shapes agent output for an ADHD reader: next action first, numbered steps, restated state, concrete time estimates | `npx skills add ayghri/i-have-adhd -g` |
+| [kun](https://github.com/kunchenguid/kun) | Summons Kun, a problem-solving persona for how Kun thinks, builds, and solves problems | `npx skills add kunchenguid/kun/skills/kun -g` |
 
 ## Install all
 

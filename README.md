@@ -20,6 +20,8 @@ AI agent skills, one repo per skill. Each installs with one command.
 | [archify](https://github.com/tt-a1i/archify) | Creates polished, validated architecture, workflow, sequence, data-flow, and lifecycle diagrams as standalone HTML with inline SVG and export | `npx skills add tt-a1i/archify -g` |
 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | Shapes agent output for an ADHD reader: next action first, numbered steps, restated state, concrete time estimates | `npx skills add ayghri/i-have-adhd -g` |
 | [kun](https://github.com/kunchenguid/kun) | Summons Kun, a problem-solving persona for how Kun thinks, builds, and solves problems | `npx skills add kunchenguid/kun/skills/kun -g` |
+| [find-skills](https://github.com/vercel-labs/skills) | Discovers and installs agent skills for a task from a searchable catalog | `npx skills add vercel-labs/skills/skills/find-skills -g` |
+| [open-code-review](https://github.com/alibaba/open-code-review) | AI-powered code review of Git changes via the ocr CLI: line-level comments, review rules, optional auto-fixes | `npx skills add alibaba/open-code-review/skills/open-code-review -g` |
 
 ## Install all
 
@@ -32,3 +34,5 @@ curl -fsSL https://raw.githubusercontent.com/saurav-codes/agent-skills/main/READ
 ## Adding a skill
 
 One repo per skill, named after the skill. The repo root holds `SKILL.md` plus a `reference/` folder for disclosed docs. Add the new repo as a row in the table above.
+
+Third-party skills from collection repos install by path: `npx skills add <owner>/<repo>/<skill-folder> -g`. Some indexed repos are private (hacker-audit); their installs work only for the owner.
